@@ -9,11 +9,13 @@ import {
   Header,
 } from "./containers";
 import { Cta, Brand, Navbar } from "./components";
+import "./index.css";
+import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="gradiant_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>

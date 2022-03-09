@@ -17,7 +17,7 @@ The output should be something like this :
     |___ package.json
 ```
 
-## Cleaning and starting code
+## 📂 Folders Structure
 
 First we delete the `/src` folder and recreate an empty one.
 
@@ -68,13 +68,11 @@ const App = () => {
 export default App;
 ```
 
-## Dependencies
+### Dependencies
 
 For this project we will only use one dependencie, we install it with the following command :
 
 `npm install react-icons`
-
-## Repository Architecture
 
 ### Components
 
@@ -174,3 +172,31 @@ const App = () => {
 
 export default App;
 ```
+
+## Navbar
+
+We create an `/assets` folder in `/src`.
+
+We setup styles for the site :
+
+- `App.css` take all our global CSS
+- `index.css` take our css variables
+
+```
+    /src
+    |___ ...
+    |___ App.css
+    |___ index.css
+```
+
+Import css files in `App.js`
+
+```js
+import "./index.css";
+import "./App.css";
+```
+
+You can found **Navbar** code here :
+
+- [Navbar CSS](src/components/navbar/navbar.css)
+- [Navbar JSX](src/components/navbar/Navbar.jsx)
