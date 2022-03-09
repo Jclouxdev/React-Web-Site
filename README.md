@@ -82,7 +82,7 @@ We create a `/components` folder inside `/src` folder.
 
 Next we create a folder for each component we will create for the web site.
 
-In thoose components folders we will create **functional component** files and **css** file (names like the parent folder).
+In thoose components folders we will create **functional component** files and **css** file (named like the parent folder).
 
 We can use again `rafce` to generate code in `.jsx` files and then import the `.css` file with `import "./article.css";`.
 
@@ -137,23 +137,9 @@ export { default as Navbar } from "./navbar/Navbar";
 
 We do the same things as **components** with an `index.js`.
 
-Last but not least, we import all our new elements in our `App.js` :
-
-```js
-import {
-  Footer,
-  Blog,
-  Possibility,
-  Features,
-  WhatGPT3,
-  Header,
-} from "./containers";
-import { CTA, Brand, Navbar } from "./components";
-```
-
 ## Usings our new components
 
-`App.js`
+We import all our new elements in our `App.js` :
 
 ```js
 import React from "react";
