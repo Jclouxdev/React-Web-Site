@@ -75,7 +75,7 @@ a {
 
 /* =-=-=-=-=-=-= SECTION STYLE =-=-=-=-=-=-= */
 
-.section__pading {
+.section__padding {
   padding: 4rem 6rem;
 }
 
@@ -128,7 +128,7 @@ a {
 
 /* Middle size device (tablet / big phones) */
 @media screen and (max-width: 700px) {
-  .section__pading {
+  .section__padding {
     padding: 4rem;
   }
 
@@ -139,7 +139,7 @@ a {
 
 /* For mobile devices */
 @media screen and (max-width: 550px) {
-  .section__pading {
+  .section__padding {
     padding: 4rem 2rem;
   }
 

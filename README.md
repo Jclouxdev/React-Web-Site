@@ -200,3 +200,10 @@ You can found **Navbar** code here :
 
 - [Navbar CSS](src/components/navbar/navbar.css)
 - [Navbar JSX](src/components/navbar/Navbar.jsx)
+
+## Header
+
+Nothing special with directory structure here, you can just see the code in thooses files :
+
+- [Header CSS](src/containers/header/header.css)
+- [Header JSX](src/containers/header/Header.JSX)
