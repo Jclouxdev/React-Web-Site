@@ -234,3 +234,36 @@ Realy small section :
 
 - [Brand CSS](src/components/brand/brand.css)
 - [Brand JSX](src/components/brand/brand.jsx)
+
+## ☀️ What Is GPT3
+
+In this section, we are going to re-use the `<Feature />` component.
+
+In the `Feature.jsx` file, we pass 2 arguments in the component, one for the `title` and the other for the `text`.
+
+```js
+const Feature = ({ title, text }) => {
+  return (
+    ...
+  );
+};
+```
+
+We can now give to the component in our `WhatGPT3.jsx` the two arguments to feed him :
+
+```js
+<Feature
+  title="What is GPT-3"
+  text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
+/>
+```
+
+### Feature Components Files
+
+- [Feature Css](src/components/feature/feature.css)
+- [Feature JSX](src/components/feature/feature.jsx)
+
+### What Is GPT-3 Section Files
+
+- [whatGPT3 Css](src/containers/whatGPT3/whatGPT3.css)
+- [whatGPT3 JSX](src/containers/whatGPT3/whatGPT3.jsx)
