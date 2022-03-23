@@ -173,7 +173,7 @@ const App = () => {
 export default App;
 ```
 
-## Navbar
+## ☀️ Navbar
 
 We create an `/assets` folder in `/src`.
 
@@ -201,7 +201,7 @@ You can found **Navbar** code here :
 - [Navbar CSS](src/components/navbar/navbar.css)
 - [Navbar JSX](src/components/navbar/Navbar.jsx)
 
-## Header
+## ☀️ Header
 
 Nothing special with directory structure here, you can just see the code in thooses files :
 
