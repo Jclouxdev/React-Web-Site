@@ -207,3 +207,30 @@ Nothing special with directory structure here, you can just see the code in thoo
 
 - [Header CSS](src/containers/header/header.css)
 - [Header JSX](src/containers/header/Header.jsx)
+
+## ☀️ Brands
+
+We will use multiples images, so we create a `imports.js` file in the `/brand` folder. The file code :
+
+```js
+import google from "../../assets/google.png";
+import slack from "../../assets/slack.png";
+import atlassian from "../../assets/atlassian.png";
+import dropbox from "../../assets/dropbox.png";
+import shopify from "../../assets/shopify.png";
+
+export { google, slack, atlassian, dropbox, shopify };
+```
+
+Back to `Brand.jsx` :
+
+```js
+...
+import { google, slack, atlassian, dropbox, shopify } from "./imports";
+...
+```
+
+Realy small section :
+
+- [Brand CSS](src/components/brand/brand.css)
+- [Brand JSX](src/components/brand/brand.jsx)
